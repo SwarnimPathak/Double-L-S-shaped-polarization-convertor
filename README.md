@@ -7,7 +7,7 @@ Description pdf contains all the information Related to our structure and you ca
 
 Other Contributors
 
-Swarnim pathak
+Swarnim pathak and 
 Preet singh sodhi
 
 I would like to sincerly thank them for their significant Contribution in this Project
