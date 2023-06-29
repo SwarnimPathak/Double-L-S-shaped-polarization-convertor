@@ -1,0 +1,176 @@
+$begin 'soln'
+	ObjectType='HfssModal'
+	SolutionType='DiscreteSweep'
+	MajorVersion=2
+	MinorVersion=0
+	Producer=''
+	Name='Adaptive_1 '
+	AdaptivePass=5
+	$begin 'Frequencies'
+		$begin 'DataPoint'
+			Frequency=2000000000
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(-0.4358521245226381, 0.8997507224573088)
+					c(0.0001077734598547886, 4.946206399185556e-05)
+				$end 'r0'
+				$begin 'r1'
+					c(0.000107773459853277, 4.946206399135424e-05)
+					c(-0.4311631684330394, 0.901902056249804)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=57210.91576261677
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(0, 41.91690043903363)
+					c(0, 41.91690043903363)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(376.730313461, -0)
+					c(376.730313461, -0)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'Zwave'
+				n=2
+				$begin 'r0'
+					c(376.730313461, -0)
+					c(376.730313461, -0)
+				$end 'r0'
+			$end 'Zwave'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(2, 0)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(2, 0)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=11000000000
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0.9330499246524377, 0.1107221986327371)
+					c(-0.06257735507692005, 0.02848152505892591)
+				$end 'r0'
+				$begin 'r1'
+					c(-0.06257735507692608, 0.02848152505892553)
+					c(-0.481767618351393, 0.7219311374847072)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=2905352.379054581
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(0, 230.542952414685)
+					c(0, 230.542952414685)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(376.730313461, -0)
+					c(376.730313461, -0)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'Zwave'
+				n=2
+				$begin 'r0'
+					c(376.730313461, -0)
+					c(376.730313461, -0)
+				$end 'r0'
+			$end 'Zwave'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(2, 0)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(2, 0)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=20000000000
+			DataType='None'
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0.2696734084832755, 0.9369405656058949)
+					c(-0.0003499347607838284, 0.0003906656379132287)
+				$end 'r0'
+				$begin 'r1'
+					c(-0.000349934760782623, 0.0003906656379109482)
+					c(0.1949330161645906, 0.9380315243083781)
+				$end 'r1'
+			$end 'SMatrix'
+			EnergyError=3954506.742258709
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(0, 419.1690043903363)
+					c(0, 419.1690043903363)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(376.730313461, -0)
+					c(376.730313461, -0)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'Zwave'
+				n=2
+				$begin 'r0'
+					c(376.730313461, -0)
+					c(376.730313461, -0)
+				$end 'r0'
+			$end 'Zwave'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(2, 0)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(2, 0)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+	$end 'Frequencies'
+	$begin 'Ports'
+		Port(ModalEntryName='FloquetPort1', TerminalEntryName='FloquetPort1', PortName='FloquetPort1', Mode=1, ModeName='', TerminalName='', ParameterName='', MatrixIndex=0)
+		Port(ModalEntryName='FloquetPort1', TerminalEntryName='FloquetPort1', PortName='FloquetPort1', Mode=2, ModeName='', TerminalName='', ParameterName='', MatrixIndex=1)
+	$end 'Ports'
+	$begin 'OtherStateSpaceModels'
+	$end 'OtherStateSpaceModels'
+	HigherOrderMode=false
+	PortNames('FloquetPort1')
+	PortModes(2)
+	ModalData=true
+	LastSolvedFreq=0
+	PreferredImpedance='Zpi'
+$end 'soln'

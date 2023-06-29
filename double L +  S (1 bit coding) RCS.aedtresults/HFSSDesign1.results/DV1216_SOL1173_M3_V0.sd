@@ -1,0 +1,23 @@
+$begin 'soln'
+	ObjectType='HfssModal'
+	SolutionType='DiscreteSweep'
+	MajorVersion=2
+	MinorVersion=0
+	Producer=''
+	Name='Adaptive_1 '
+	AdaptivePass=3
+	$begin 'Frequencies'
+		$begin 'DataPoint'
+			Frequency=9000000000
+			DataType='None'
+			EnergyError=137.4057558996897
+			IeEnergyError=0
+		$end 'DataPoint'
+	$end 'Frequencies'
+	$begin 'OtherStateSpaceModels'
+	$end 'OtherStateSpaceModels'
+	HigherOrderMode=false
+	ModalData=true
+	LastSolvedFreq=0
+	PreferredImpedance='Zpi'
+$end 'soln'
